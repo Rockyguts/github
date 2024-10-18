@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/940a3dbd80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <img class="bg-image"
+      src="https://images.unsplash.com/photo-1502613374390-8da7aa532177?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark filter bg-opacity-75 :">
+      <div class="container-fluid ">
+        <div class="title " style="padding-left: 180px;">
+          <a class="navbar-brand " href="#">GUHAN</a>
+        </div>
+        <div class="mr-auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav pe-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Full width</a></li>
+                  <li><a class="dropdown-item" href="#">Font Icons</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  DROPDOWN LINK
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Level 2</a></li>
+                  <li><a class="dropdown-item" href="#">Level 2 + Drop</a></li>
+                  <li><a class="dropdown-item" href="#">Level 2</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">LINK TEXT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LINK TEXT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LINK TEXT</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center text-white"
+      style="padding-top: 200px; padding-left: 350px; padding-bottom: 100px;">
+      <div class="row ">
+        <div class="col-md-7 col-sm-12">
+          <h1>Dapibus ligula convallis</h1>
+          <p>A massa etiam augue nunc lectus duis eget libero non nisi lobortis suscipit praesent viverra nam dapibus
+            orci non erat aliquam erat volutpat.</p>
+          <button class="btn btn-primary px-5 py-2">Buy Now</button>
+        </div>
+        <div class="col-md-5 col-sm-12"></div>
+
+      </div>
+    </div>
+  </header>
+  <!-- ---------------------------------------------------------------------------------- -->
+  <main>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 px-5 ">
+      <div class="col">
+        <div class="card h-100 bg-dark filter bg-opacity-50">
+          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers" />
+          <div class="card-body">
+            <h5 class="card-title text-center text-white ">Mollis suscipit</h5>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 bg-dark filter bg-opacity-50">
+          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+            alt="Los Angeles Skyscrapers" />
+          <div class="card-body">
+            <h5 class="card-title text-center text-white">Mollis suscipit</h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 bg-dark filter bg-opacity-50">
+          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+            alt="Palm Springs Road" />
+          <div class="card-body">
+            <h5 class="card-title text-center text-white">Mollis suscipit</h5>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- #region ----------------------------------------------------------->
+
+    <div class="container " style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+      <div class="row">
+        <div class="col-4 ">
+          <img class="p-3 " style="border: solid 1px rgba(0, 0, 0, 0.181);" src="https://picsum.photos/400/300" alt="">
+        </div>
+        <div class="col-4 mt-5">
+          <h5 style="color: rgb(184, 4, 166); padding-bottom: 10px;">Posuere ultricies</h5>
+          <p>Sed tellus fusce velit orci aliquet et condimentum sit amet dapibus eget odio vivamus urna pellentesque
+            felis…</p>
+          <br>
+
+          <h5 style="color: rgb(157, 2, 141); padding-bottom: 10px;">Posuere ultricies</h5>
+          <p>Sed tellus fusce velit orci aliquet et condimentum sit amet dapibus eget odio vivamus urna pellentesque
+            felis…</p>
+        </div>
+        <div class="col-4 mt-5">
+          <h5 style="color: rgb(162, 0, 146); padding-bottom: 10px;">Posuere ultricies</h5>
+          <p>Sed tellus fusce velit orci aliquet et condimentum sit amet dapibus eget odio vivamus urna pellentesque
+            felis…</p>
+          <br>
+
+          <h5 style="color: rgb(151, 2, 136); padding-bottom: 10px;">Posuere ultricies</h5>
+          <p>Sed tellus fusce velit orci aliquet et condimentum sit amet dapibus eget odio vivamus urna pellentesque
+            felis…</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+    <img class="bg-image-2"
+      src="https://images.unsplash.com/photo-1728280309635-bcde411f83df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8SnBnNktpZGwtSGt8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+    <div class="container  filter bg-opacity-50">
+      <div class="row  mt-2">
+        <div class="col-12 mt-5"></div>
+        <p class="text-center text-white">Pulvinar sem eu tincidunt magna</p>
+        <h4 class="text-center pb-5 text-white">Nulla eu turpis curabitur</h4>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img class=" img-fluid card-img-top  " src="https://picsum.photos/300/200" alt="Card image cap">
+        </div>
+        <div class="col-4">
+          <img class="card-img-top" src="https://picsum.photos/300/200" alt="Card image cap">
+        </div>
+        <div class="col-4">
+          <img class="card-img-top" src="https://picsum.photos/300/200" alt="Card image cap">
+
+        </div>
+      </div>
+      <div class="row pt-5 pb-5">
+        <div class="col-4">
+          <img class="card-img-top" src="https://picsum.photos/300/200" alt="Card image cap">
+        </div>
+        <div class="col-4">
+          <img class="card-img-top" src="https://picsum.photos/300/200" alt="Card image cap">
+        </div>
+        <div class="col-4">
+          <img class="card-img-top" src="https://picsum.photos/300/200" alt="Card image cap">
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+
+    <div class="container pt-5">
+
+      <div class="row">
+        <div class="col-12 "></div>
+        <p class="text-center">Vel lorem quis arcu euismod faucibus</p>
+        <h4 class="text-center pb-5">Quisque luctus nullam eget</h4>
+      </div>
+
+
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card pt-3 shadow p-3 mb-5 bg-body rounded">
+            <img src="/handsome-man-with-glasses_144627-18665.avif " class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">A. Doe</h5>
+              <p class="card-text"> Job Title Here</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card   shadow  p-3 mb-5 bg-body rounded">
+            <img src="/handsome-man-with-glasses_144627-18665.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">A. Doe</h5>
+              <p class="card-text"> Job Title Here</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  pt-3 shadow p-3 mb-5 bg-body rounded">
+            <img src="/handsome-man-with-glasses_144627-18665.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">A. Doe</h5>
+              <p class="card-text"> Job Title Here</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  pt-3 shadow p-3 mb-5 bg-body rounded">
+            <img src="/handsome-man-with-glasses_144627-18665.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">A. Doe</h5>
+              <p class="card-text"> Job Title Here</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ----------------------------------------------------------------------------------------------- -->
+      <div class="container  filter bg-opacity-50">
+        <div class="row  mt-2">
+          <div class="col-12 mt-5"></div>
+          <p class="text-center ">Nisl donec eu neque nisi molestie</p>
+          <h4 class="text-center pb-5 ">Pellentesque donec ut dolor</h4>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img class=" img-fluid card-img-top  " src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+        </div>
+        <div class="row pt-5 pb-5">
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+          <div class="col-3">
+            <img class="card-img-top" src="https://picsum.photos/300/200//" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------- -->
+      <!--        
+      <img class="bg-image3"
+      src="https://images.unsplash.com/photo-1650715452203-25a97b842ad9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+      <div class="container  filter bg-opacity-50">
+        <div class="row  mt-2">
+          <div class="col-12 mt-5">
+          <p class="text-center text-white">Nisl donec eu neque nisi molestie</p>
+          <h4 class="text-center pb-5 text-white ">Pellentesque donec ut dolor</h4>
+        </div>
+      </div>
+      
+    </div> -->
+      <!-- --------------------------------------------------------------------------------------------------- -->
+      <div class="container">
+        <div class="row  mt-2">
+          <div class="col-12 mt-5"></div>
+          <p class="text-center ">Nisl donec eu neque nisi molestie</p>
+          <h4 class="text-center pb-5 ">Pellentesque donec ut dolor</h4>
+        </div>
+        <div class="row">
+
+          <div class="col-4">
+            <div class="card" style="border: none;">
+              <img src="https://picsum.photos/300/200/" class="card-img-top" alt="...">
+              <div class="card-body  ">
+                <p class="card-title">Aliquet tincidunt vel vulputate egestas leo</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary " style="margin-left: 260px;">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card" style="border: none;">
+              <img src="https://picsum.photos/300/200/" class="card-img-top" alt="...">
+              <div class="card-body  ">
+                <p class="card-title">Aliquet tincidunt vel vulputate egestas leo</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary " style="margin-left: 260px;">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-4">
+            <div class="card" style="border: none;">
+              <img src="https://picsum.photos/300/200/" class="card-img-top" alt="...">
+              <div class="card-body  ">
+                <p class="card-title">Aliquet tincidunt vel vulputate egestas leo</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary " style="margin-left: 260px;">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </main>
+
+  <footer>
+
+
+    <div class="container-fluid text-white">
+      <div class="row " style="background-color: rgb(152, 0, 152);">
+        <div class="col-3">
+          <div class="con d-flex align-items-center justify-content-center pt-4">
+            <div class="ch1 pe-4 mb-2">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="ch2">
+              <h5>Give us a call:</h5>
+              <p>+00 (123) 456 7890</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="con d-flex align-items-center justify-content-center pt-4">
+            <div class="ch1 pe-4 mb-2">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="ch2">
+              <h5>Send us a mail: </h5>
+              <p> support@domain.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="con d-flex align-items-center justify-content-center pt-4">
+            <div class="ch1 pe-4 mb-2">
+              <i class="fa-solid fa-clock"></i>    
+              </div>
+            <div class="ch2">
+              <h5>Monday - Saturday:</h5>
+              <p>08.00am - 18.00pm</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="con d-flex align-items-center justify-content-center pt-4">
+            <div class="ch1 pe-4 mb-2">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="ch2">
+              <h5>Come visit us:</h5>
+              <p>Directions to our location</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <img class="bg-image-2"
+      src="https://plus.unsplash.com/premium_photo-1728033936981-600bffc3fda4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+
+
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
